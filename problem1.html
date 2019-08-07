@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
+    <button class="tablink" onclick="openPage('News', this, 'red')">My Family</button>
+    <button class="tablink" onclick="openPage('Educated', this, 'red')">Educated</button>
+    <button class="tablink" onclick="openPage('About', this, 'red')">About</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'red')">Contact</button>
+
+
+    <div id="Home" class="tabcontent">
+        <h1>Hello. I'm YosoraZZZ.</h1>
+
+        <p>YosoraZZZ is my online name. My real name is Chanawee. Let's me show about represents myself.</p>
+        <p>Let's go.</p>
+        <img src="images/myFace.jpg" alt="My Face " class="center">
+    </div>
+
+    <div id="News" class="tabcontent">
+        <h2>My Family</h2>
+        <p>Some news this fine day!</p>
+    </div>
+
+    <div id="Educated" class="tabcontent">
+        <table id="customers">
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Berglunds snabbköp</td>
+                <td>Christina Berglund</td>
+                <td>Sweden</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="Contact" class="tabcontent">
+        <h2>HTML Forms</h2>
+
+        <form action="/action_page.php">
+            First name:<br>
+            <input type="text" name="firstname" value="">
+            <br> Last name:<br>
+            <input type="text" name="lastname" value="">
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p class="facebook"><a href="https://www.facebook.com/chanawee.pongsumritphol">Facebook</a></p>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <p>My skill</p>
+        <ul class="b">
+            <li>Python</li>
+            <li>Java</li>
+            <li>Html</li>
+        </ul>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
